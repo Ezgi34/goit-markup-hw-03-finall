@@ -1,0 +1,198 @@
+/* === Global Reset (B1) === */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* === Genel Stil ve Yazı Tipleri === */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    background-image: url("../images/light-bg.jpg"); /* Light-bg dosyasını resim olarak ekledik */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* === Ana Konteyner (B6, B8, B9) === */
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* === HEADER (Üst Kısım) (B13) === */
+.header {
+    border-bottom: 1px solid #ccc;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-link {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+}
+
+.logo-studio {
+    color: #007BFF;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+/* === İletişim Bilgileri (A8) === */
+.contact-info ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.mailto-info {
+    text-decoration: none;
+    color: #555;
+    font-size: 14px;
+}
+
+/* === HERO SECTION (B15) === */
+.effective-solutions {
+    text-align: center;
+    padding: 120px 0;
+}
+
+.post-title {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+/* === Buton Stili (B10) === */
+.button-style {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/* === Tasarım Felsefesi Bölümü (B15) === */
+.our-design {
+    padding: 120px 0;
+}
+
+.design-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    gap: 20px;
+}
+
+.design-list li {
+    width: 48%;
+}
+
+/* === Başlıklar (B1) === */
+.header-two {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.header-three {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.body-text {
+    font-size: 16px;
+    color: #555;
+}
+
+/* === Portföy Bölümü (B16) === */
+.our-portfolio {
+    padding: 120px 0;
+}
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+.portfolio-list li {
+    text-align: center;
+    width: calc(33.333% - 20px);
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid #ddd; /* B16 - Sadece alt kenarlık */
+}
+
+.portfolio-list img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* === FOOTER (Alt Kısım) (B14) === */
+.footer {
+    text-align: center;
+    padding: 40px 0;
+    background: #f8f8f8;
+}
+
+.footer .logo-and {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+}
+
+.footer-text {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+}
+
+/* === Flexbox Kuralları (B10) === */
+.header,
+.our-design,
+.our-portfolio,
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* === Section (B14, B15) === */
+.effective-solutions, 
+.our-design, 
+.our-portfolio {
+    padding: 120px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.{
+    
+}
