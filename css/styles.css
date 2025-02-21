@@ -1,10 +1,46 @@
 body {
+    font-family: "Inter" , sans-serif;
     font-family:"Roboto" , sans-serif ;
     color: #434455;
+    line-height: 1.5;
     background-color: #ffffff;
+}
+/* Container */
+.container {
+    width: 100%;
+    max-width: var(--container-width);
+    width: var(--container-width);
+    margin: 0 auto;
+    padding: 0 15px;
+}
+/* Header */
+.header {
+    padding: 24px 0;
+    background: white;
+    border-bottom: 1px solid rgba(46, 47, 66, 0.08);
+    box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+.header .container {
+    display: flex;
+    width: 100%;
+    max-width: var(--container-width);
+    
 }
 .effective-solutions { 
     background-color: #2e2f42;
+    font-family: "Roboto" , sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+    align-items: center;
+    color:#ffffff ;
+    padding: var(--section-padding) 0;
+    text-align: center;
+
+}
+.hero h1 {
+    font-size: 48px;
 }
 .post-title {
     font-weight: 700;
@@ -15,18 +51,32 @@ body {
     text-align: center;
 }
 .button-style {
+    display: inline-block;
     color: #ffffff;
     background-color: #4d5ae5;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 24px;
     letter-spacing: 0.04em;
     font-family: "Roboto" , sans-serif;
+    padding: 0;
+    top: 16px;
+    right: 32px;
+    bottom: 16px;
+    left: 32px;
+    border-radius: 4px;
+    gap: 10px;
+    align-items: center;
+    text-decoration: none;
+    border: none;
+   
 }
 .button-style:hover, .button-style:focus { 
     background-color: #404bbf;
     color: #ffffff;
     cursor: pointer;
+
+
 }
 .header-two {
     color: #2e2f42;
@@ -43,12 +93,31 @@ body {
     letter-spacing: 0.02em;
     color: #2e2f42;
     line-height: 1.2;
+    
 }
 .body-text {
     font-size: 16px;
     letter-spacing: 0.02em;
     color: #434455;
     line-height: 1.5;
+}
+.logo {
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--text-color);
+    text-decoration: none;
+}
+.nav {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.nav-link {
+    color: var(--text-color);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.nav-link:hover {
 }
 .logo-web {
     font-weight: 500;
@@ -68,12 +137,16 @@ body {
     color: #4d5ae5;
     font-family: "Raleway" , sans-serif;
     text-transform: uppercase;
+    color: var(--primary-color);
 }
 .logo-studio {
     color: #2e2f42;
 }
 .contact-info {
     font-style: normal;
+    color: var(--text-color);
+    text-decoration: none;
+
 }
 .mailto-info {
     color: #434455;
@@ -82,7 +155,7 @@ body {
     letter-spacing: 0.02em;
 }
 .mailto-info:hover , .mailto-info:focus {
-    color: #404bbf;
+    color: #434455;
 }
 .our-portfolio {
     background-color: #f4f4fd;
@@ -100,6 +173,7 @@ body {
     text-decoration: none;
     text-transform: uppercase;
 }
+
 .footer-part {
     color: #ffffff;
     font-family: "Roboto" , sans-serif;
@@ -111,9 +185,60 @@ body {
 .footer-part {
     background-color: #2e2f42;
 }
+/* Team Section */
+.team {
+    background: var(--bg-color);
+}
+.section-title {
+    text-align: center;
+    margin-bottom: 72px;
+    font-size: 36px;
+}
 .portfolio-team {
     background-color: #ffffff;
+    align-items: center;
+    text-align: center;
 }
+
 .footer-text{
     color: #F4F4FD;
+}
+.footer {
+    background: #2A2C38 ;
+    color: white;
+    padding: 100px 0;
+}
+.footer .logo {
+    color: white;
+    margin-bottom: 16px;
+    display: inline-block;
+}
+
+.menu{
+    display: grid;
+    grid-auto-flow: column; /* Öğeleri yatay hizalar */
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu li{
+    display: inline-block;
+    margin-right: 20px;
+    color: #2e2f42;
+    font-family: "Roboto" , sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+}
+.menu a {
+    text-decoration:none;
+    color: black;
+    font-size: 18px;
+    align-items: center;
+    color: #4d5ae5 ;
+    
 }
