@@ -1,4 +1,4 @@
-/*css code*/
+
 *{
     box-sizing: border-box;
 }
@@ -166,8 +166,6 @@ menu:active{
 .blue_button:focus{
     background-color: #404BBF;
 }
-
-/*ABOUT US*/
 .about-us-section{
     padding: 120px 0;
 }
@@ -211,7 +209,7 @@ menu:active{
     width: calc((100% - 72px) / 4);
 }
 
-/*OUR TEAM*/
+
 .our_team-section{
     background-color: #F4F4FD;
     padding: 120px 0;
@@ -265,7 +263,7 @@ menu:active{
     text-align: center;
 }
 
-/*OUR PORTFOLIO*/
+
 .our_portfolio{
     padding : 120px 0;
 }
@@ -308,7 +306,7 @@ menu:active{
 .portfolio-content{
     letter-spacing: 0.02em;
 }
-/*FOOTER*/
+
 .footer{
     background-color: #2E2F42;
     font-family: "Raleway",sans-serif;
