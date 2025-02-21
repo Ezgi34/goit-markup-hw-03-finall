@@ -4,6 +4,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+img {
+    display: block;
+    margin: 0 auto;
+}
 
 /* === Genel Stil ve Yazı Tipleri === */
 body {
@@ -110,6 +114,7 @@ body {
 
 /* === Başlıklar (B1) === */
 .header-two {
+    align-items: center;
     font-size: 28px;
     margin-bottom: 20px;
 }
@@ -127,6 +132,7 @@ body {
 /* === Portföy Bölümü (B16) === */
 .our-portfolio {
     padding: 120px 0;
+    align-items: center;
 }
 
 .portfolio-list {
